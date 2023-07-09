@@ -1,0 +1,32 @@
+{
+	"folders": [
+	  {
+		"path": "."
+	  }
+	],
+	"settings": {
+	  "editor.autoIndent": "full",
+	  "editor.detectIndentation": true,
+	  "editor.formatOnSave": true,
+	  "editor.insertSpaces": true,
+	  "editor.mouseWheelZoom": true,
+	  "editor.renderWhitespace": "all",
+	  "editor.rulers": [
+		80
+	  ],
+	  "editor.tabSize": 2,
+	  "editor.wordWrap": "on",
+	  "editorconfig.generateAuto": false,
+	  "files.insertFinalNewline": true,
+	  "files.trimTrailingWhitespace": false,
+	  "html.format.extraLiners": "",
+	  "html.format.wrapAttributes": "force-aligned",
+	  "javascript.preferences.quoteStyle": "single"
+	},
+	"extensions": {
+	  "recommendations": [
+		"editorconfig.editorconfig"
+	  ]
+	}
+  }
+  
