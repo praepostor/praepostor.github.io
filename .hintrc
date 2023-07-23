@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "web-recommended",
+        "webhint-configuration-example2",
+        "@orgname/webhint-configuration-example3"
+    ],
+    "hints": {
+        "html-checker": ["error", {
+            "validator": "https://html5.validator.nu"
+        }]
+    }
+}
