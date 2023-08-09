@@ -5,20 +5,20 @@
   <title>Состав вдыхаемого, выдыхаемого, альвеолярного воздуха</title>
   <style>
     table {
-      border: 0.1875em solid #000;
+      border: medium solid;
       border-collapse: collapse;
     }
 
     td,
     th {
-      border: 0.125em solid #000;
+      border: thin solid;
     }
 
-    colgroup {
+    colgroup:nth-of-type(1) {
       background-color: beige;
     }
 
-    colgroup.x {
+    colgroup:nth-of-type(2) {
       background-color: greenyellow;
     }
   </style>
@@ -28,25 +28,15 @@
     <h1>Azaza</h1>
     <table>
       <caption>Состав вдыхаемого, выдыхаемого, альвеолярного воздуха</caption>
-      <colgroup>
-        <col>
-      </colgroup>
-      <colgroup>
-        <col>
-        <col>
-        <col>
-      </colgroup>
       <thead>
         <tr>
-          <th rowspan="2"
-              scope="col">Воздух</th>
-          <th colspan="3"
-              scope="colgroup">Газы, входящие в состав воздуха, %</th>
+          <th rowspan="2">Воздух</th>
+          <th colspan="3">Газы, входящие в состав воздуха, %</th>
         </tr>
         <tr>
-          <th scope="col">Кислород</th>
-          <th scope="col">Углекислый газ</th>
-          <th scope="col">Азот и пары воды</th>
+          <th>Кислород</th>
+          <th>Углекислый газ</th>
+          <th>Азот и пары воды</th>
         </tr>
       </thead>
       <tbody>
